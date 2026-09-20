@@ -1,0 +1,11 @@
+{
+  "data": {
+    "train_manifest": "data/megadepth_train.jsonl",
+    "val_manifest": "data/megadepth_val.jsonl",
+    "resize": 832
+  },
+  "train": {
+    "epochs": 30,
+    "batch_size": 2
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "model": {
+    "num_keypoints": 32,
+    "descriptor_dim": 32,
+    "fine_dim": 16,
+    "num_heads": 2,
+    "num_layers": 1,
+    "backbone_blocks": [
+      1,
+      1,
+      1
+    ],
+    "train_fine_samples": 32,
+    "coarse_chunk_size": 32
+  },
+  "data": {
+    "resize": 64,
+    "workers": 0
+  },
+  "train": {
+    "epochs": 1,
+    "batch_size": 1,
+    "amp": false,
+    "log_every": 1
+  }
+}
